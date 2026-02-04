@@ -1,0 +1,13 @@
+import java.io.*;
+import java.util.*; 
+class UserMainCode
+{
+    public int secondLastDigitof(int input1){
+        int nums=Math.abs(input1);
+        if(nums<10){
+            return -1;
+        }else{
+            return(nums/10)%10;
+        }
+    }
+}
