@@ -2,12 +2,16 @@ import java.io.*;
 import java.util.*; 
 class UserMainCode
 {
-    public int secondLastDigitof(int input1){
+   public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter input1:");
+        int input1 = sc.nextInt();
         int nums=Math.abs(input1);
         if(nums<10){
-            return -1;
+            System.out.println("-1");
         }else{
-            return(nums/10)%10;
+            int ldig=(nums/10)%10;
+            System.out.println(ldig);
         }
     }
 }
