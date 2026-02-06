@@ -1,8 +1,12 @@
 import java.io.*;
 import java.util.*; 
-class UserMainCode
-{
-    public int lastDigitof(int input1) {
-        return Math.abs(input1%10);
+class UserMainCode {
+ public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter input1:");
+        int input1 = sc.nextInt();
+        int num=Math.abs(input1);
+        int ldig=num%10;
+        System.out.println(ldig);
     }
 }
