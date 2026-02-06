@@ -1,12 +1,17 @@
-class UserMainCode
-{
-    public int addLastDigits (int input1, int input2){
+class UserMainCode {
+public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter input1:");
+        int input1=sc.nextInt();
+        System.out.println("enter input2:");
+        int input2=sc.nextInt();
         int num1=Math.abs(input1);
         int num2=Math.abs(input2);
         int ldgi1=0;
         int ldgi2=0;
         ldgi1=num1%10;
         ldgi2=num2%10;
-        return ldgi1+ldgi2;
-    }
+        int sum=ldgi1+ldgi2;
+        System.out.println(sum);
+        }
 }
