@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class merttle {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int input1=sc.nextInt();
+        int input2=sc.nextInt();
+        int input3=sc.nextInt();
+        int input4=sc.nextInt();
+        int input5=sc.nextInt();
+        int count=0;
+        if(input1%2!=0){
+            count+=1;
+        }
+        if(input2%2!=0){
+            count+=1;
+        }
+        if(input3%2!=0){
+            count+=1;
+        }
+        if(input4%2!=0){
+            count+=1;
+        }
+        if(input5%2!=0){
+            count+=1;
+        }
+        System.out.println(count);
+
+    }
+}
