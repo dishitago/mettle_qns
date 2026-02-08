@@ -1,5 +1,7 @@
-class UserMainCode {
-public static void main(String[] args) {
+import java.util.Scanner;
+
+public class merttle {
+    public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.println("enter input1:");
         int input1=sc.nextInt();
@@ -13,5 +15,5 @@ public static void main(String[] args) {
         ldgi2=num2%10;
         int sum=ldgi1+ldgi2;
         System.out.println(sum);
-        }
+    }
 }
